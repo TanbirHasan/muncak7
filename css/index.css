@@ -1,0 +1,565 @@
+
+@import "all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+
+
+/*global css end*/
+
+
+
+
+.header-section{
+    width: 100%;
+    background: url("../img/HEADER.png") center top no-repeat;
+    background-size: cover;
+}
+
+.menu{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.menu .bg-light{
+    background: transparent !important;
+}
+
+
+
+.header-text{
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+.header-text span{
+    color: #2870db;
+}
+
+
+.menu .navbar-light .navbar-nav .nav-link{
+    color: #ffffff;
+    margin:0px 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.menu .navbar-light .navbar-nav .active .nav-link{
+    color: #ffffff;
+    padding-bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+.menu .navbar-light .navbar-nav .btn-info{
+    padding: 5px 29px;
+    border-radius: 17px;
+    color: white;
+    background-color: dodgerblue;
+    transition: 0.5s ease-in;
+}
+
+
+.menu .navbar-light .navbar-nav .btn-info:hover{
+    padding: 5px 29px;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+
+.header-section .banner{
+    width: 100%;
+    padding: 100px 0px 380px;
+}
+.header-section .banner .banner-inner{
+    width: 100%;
+    padding: 40px 0px;
+
+}
+
+
+.banner .banner-inner h1{
+    font-size: 42px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 55px;
+    padding-bottom: 20px;
+    color:#1a1a1a ;
+}
+
+.banner .banner-inner p{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    color:#b8b4c7 ;
+}
+
+.banner .banner-inner .btn-info{
+    padding: 10px 35px;
+    border: 0px;
+    color:white ;
+    background: #2870db;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: 0.5s ease-in;
+}
+
+.banner .banner-inner .btn-info:hover{
+    padding: 10px 35px;
+    border: 0px;
+    color:#1a1a1a ;
+    background:white ;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+
+/*start of explore section*/
+
+.explore{
+    width: 100%;
+    padding: 90px 0px
+
+}
+
+
+
+
+.explore .explore-text{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.explore .explore-text h1{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 30px;
+}
+
+
+.explore .card{
+    width:100%;
+}
+
+
+.explore .card{
+    width: 100%;
+    border-radius: 10px;
+    opacity: .5;
+    box-shadow: 1px 4px 10px #ccc;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    background-size: cover;
+}
+
+
+
+.card-section{
+    width: 100%;
+    padding: 80px 0px ;
+}
+
+.card-section .card .card-body .card-title{
+    font-size: 17px;
+    color: #1a1a1a;
+    font-weight: 600;
+}
+
+
+
+.explore .card-section .col-md-6{
+    position: relative;
+}
+.explore .card-section .col-md-6 .smart-object{
+    margin-bottom: 40px;
+    margin-left: 90px;
+}
+
+.explore .card-section .col-md-6 .smart-object2{
+    position: absolute;
+    top: -75%;
+    left: 25%;
+}
+
+.explore .card-section .col-md-6 .smart-object3{
+    position: absolute;
+    top: -55%;
+    left: 25%;
+}
+
+
+.explore .card-section .btn-info{
+    padding: 15px 30px;
+    border: 0px;
+    color:white ;
+    background: #2870db;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: 0.5s ease-in;
+}
+
+.btn{
+    margin-top: 50px;
+}
+
+
+.explore .blue-image{
+    position: relative;
+}
+
+.explore .blue-image img{
+    position: absolute;
+    top: 500px;
+    left: 73%;
+
+}
+
+
+
+
+/*strt of trail section*/
+
+
+.improved-trail{
+    width: 100%;
+    padding: 10px 0px 90px;
+
+}
+
+
+.improved-trail .trail-text{
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+
+.improved-trail .trail-text h1{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #1a1a1a;
+
+
+}
+
+.improved-trail .numerical-value{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.improved-trail .numerical-value p{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color: #3e474c;
+}
+
+.improved-trail .numerical-value h1{
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color:#1a56a3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*start of protecting trials*/
+
+.protecting-trails{
+    width: 100%;
+    padding: 20px 0px 120px 0px;
+}
+
+
+
+.protecting-trails .protecting-text{
+    width: 100%;
+    padding: 40px 0px 60px;
+    text-align: center;
+}
+
+
+.protecting-trails .protecting-text h1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.protecting-trails .card{
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 1px 4px 10px #ccc;
+}
+
+.protecting-trails .card .card-title{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.protecting-trails .card .card-text{
+    font-size: 15px;
+    color: #7f929b;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.protecting-trails .card .btn-link{
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+.protecting-trails .left-sellipse{
+    position: relative;
+}
+
+.protecting-trails .left-sellipse img{
+    position: absolute;
+    bottom: 60px;
+    left: -194px;
+
+}
+
+
+/*start of footer section*/
+
+
+.login-section{
+    width: 100%;
+    position: relative;
+}
+
+
+.login-section .login-inner{
+    width: 100%;
+    position: absolute;
+    background: url("../img/login1.png") center center no-repeat;
+    background-size: cover;
+    padding: 280px 0px 250px;
+}
+.login-section .login-inner .login-text{
+    width: 100%;
+    text-align: center;
+    margin-top: -120px;
+
+}
+
+
+.login-section .login-inner .login-text h1{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+
+.login-section .form-section{
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.form-control {
+    display: inline-block;
+    width: 40%;
+    padding: 25px 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+}
+
+
+
+.login-section .btn-form{
+    padding: 15px 30px;
+    border: 0px;
+    color:white ;
+    background: #00aeff;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: 0.5s ease-in;
+}
+
+
+.footer-section{
+    width: 100%;
+    background: url("../img/footerellipse.png") center center no-repeat;
+    background-size: cover;
+    padding: 90px 0px 30px;
+    margin-top: 400px;
+}
+
+
+
+.inner-footer{
+    width: 100%;
+    margin-top: 200px;
+}
+
+
+.inner-footer h4{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    padding-bottom: 28px;
+}
+
+
+
+
+.inner-footer P{
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    line-height: 9px;
+}
+
+
+.form-section .social-icon{
+    width: 100%;
+}
+
+.footer-section .social-icon ul li{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding-top: 8px;
+    border: 1px solid;
+    border-color: #ffffff;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 100%;
+    text-decoration: none;
+}
+.footer-section .social-icon ul li a p{
+    color: #00aeff;
+}
+
+.footer-section .inner-footer .row:nth-of-type(1){
+    padding-bottom: 20px;
+}
+
+
+/*start of footer section*/
+
+
+/*Responsive design*/
+
+
+
+@media (min-width: 576px) and (max-width: 768px){
+     .header-text{
+         padding-right: 400px;
+     }
+    .menu .navbar-light .navbar-nav .active .nav-link {
+        color: #040404;
+        padding-bottom: 0px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .menu .navbar-light .navbar-nav .nav-link {
+        color: #000000;
+        margin: 0px 15px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .explore .card-section .btn-info {
+        padding: 15px 40px;
+        border: 0px;
+        color: white;
+        background: #2870db;
+        border-radius: 30px;
+        font-size: 15px;
+        transition: 0.5s ease-in;
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 575.98px){
+    .header-text{
+        padding-bottom: 20px;
+        padding-right: 200px;
+    }
+    .menu .navbar-light .navbar-nav .active .nav-link {
+        color: #040404;
+        padding-bottom: 0px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .menu .navbar-light .navbar-nav .nav-link {
+        color: #000000;
+        margin: 0px 15px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .explore .card-section .btn-info {
+        padding: 15px 40px;
+        border: 0px;
+        color: white;
+        background: #2870db;
+        border-radius: 30px;
+        font-size: 15px;
+        transition: 0.5s ease-in;
+        margin-left: 0px;
+    }
+    .btn {
+        margin-top: 7px;
+    }
+    .col-md-4{
+        margin-bottom: 10px;
+    }
+}
